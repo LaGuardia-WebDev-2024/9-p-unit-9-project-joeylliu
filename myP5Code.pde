@@ -12,11 +12,28 @@ draw = function(){
   triangle(200, 104, 280, 280, 120, 280);
   fill(255, 255, 255);
   
-  if (answer == 1) {
-    text("YOUR", 176, 200);
-    text("MESSAGE", 159, 229); 
+  if (answer == 1) { 
+    text("CLICK", 176, 200);
+    text("HERE", 159, 229); 
   }
-  
+
+  if (answer == 2) { //responses
+    text("Jk",39, 200);
+    text ("YES", 176,200);
+    }
+
+  if (answer == 3) {
+    text("NOPE",176,200);
+  }
+
+  if (answer == 4) {
+    text("MAYBE", 176 ,200);
+  }
+
+  if (answer == 5) {
+    text("gatekeeping cant tell u", 170,200);
+  }
+   
 };
 
 mouseClicked = function(){
