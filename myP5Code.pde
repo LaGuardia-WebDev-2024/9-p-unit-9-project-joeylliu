@@ -38,7 +38,7 @@ if(mouseY < 200 && mousePressed){ //strobe lighting
   stroke(0);
   fill(random(255), random(255), random(255));
   rect(0,0,400,400);
-}
+};
 
 textSize(50);
 text("🧙‍♀️", 170,365);
@@ -46,7 +46,7 @@ if(dist(mouseX, mouseY, 180, 355)< 20){ //witch
   fill(321,320,110);
   textSize(30);
   text("witch", 160,360);
-}
+};
 
 };
 
